@@ -1,0 +1,137 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MQTT</title>
+
+    <!-- Added the Bootstrap CDN -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="switch.css">
+</head>
+<body>
+    <div class="col-sm-12">
+        <h1>MQTT Switch</h1> 
+        <h4 id='status-header'>Connecting to broker...</h4>
+        <div class="form-group container">
+            <div class="row">
+                <h4>Switch for NeoPixel at Index 0</h4>
+            </div>
+            <div class="row">
+                <!-- Rectangular switch -->
+                <label class="switch">
+                    <input type="checkbox" id="pub-switch" value="0">
+                    <span class="slider"></span>
+                </label>
+            </div>
+            <div class="row">
+                <h4>Switch for NeoPixel at Index 1</h4>
+            </div>
+            <div class="row">
+                <!-- Rectangular switch -->
+                <label class="switch">
+                    <input type="checkbox" id="pub-switch1" value="1">
+                    <span class="slider"></span>
+                </label>
+            </div>
+            <div class="row">
+                <h4>Switch for NeoPixel at Index 2</h4>
+            </div>
+            <div class="row">
+                <!-- Rectangular switch -->
+                <label class="switch">
+                    <input type="checkbox" id="pub-switch2" value="2">
+                    <span class="slider"></span>
+                </label>
+            </div>
+            <div class="row">
+                <h4>Switch for NeoPixel at Index 3</h4>
+            </div>
+            <div class="row">
+                <!-- Rectangular switch -->
+                <label class="switch">
+                    <input type="checkbox" id="pub-switch3" value="3">
+                    <span class="slider"></span>
+                </label>
+            </div>
+            <div class="row">
+                <h4>Switch for NeoPixel at Index 4</h4>
+            </div>
+            <div class="row">
+                <!-- Rectangular switch -->
+                <label class="switch">
+                    <input type="checkbox" id="pub-switch4" value="4">
+                    <span class="slider"></span>
+                </label>
+            </div>
+            <div class="row">
+                <h4>Switch for NeoPixel at Index 5</h4>
+            </div>
+            <div class="row">
+                <!-- Rectangular switch -->
+                <label class="switch">
+                    <input type="checkbox" id="pub-switch5" value="5">
+                    <span class="slider"></span>
+                </label>
+            </div>
+            <div class="row">
+                <h4>Switch for NeoPixel at Index 6</h4>
+            </div>
+            <div class="row">
+                <!-- Rectangular switch -->
+                <label class="switch">
+                    <input type="checkbox" id="pub-switch6" value="6">
+                    <span class="slider"></span>
+                </label>
+            </div>
+            <div class="row">
+                <h4>Switch for NeoPixel at Index 7</h4>
+            </div>
+            <div class="row">
+                <!-- Rectangular switch -->
+                <label class="switch">
+                    <input type="checkbox" id="pub-switch7" value="7">
+                    <span class="slider"></span>
+                </label>
+            </div>
+            <div class="row">
+                <h4>Switch for NeoPixel at Index 8</h4>
+            </div>
+            <div class="row">
+                <!-- Rectangular switch -->
+                <label class="switch">
+                    <input type="checkbox" id="pub-switch8" value="8">
+                    <span class="slider"></span>
+                </label>
+            </div>
+            <div class="row">
+                <h4>Switch for NeoPixel at Index 9</h4>
+            </div>
+            <div class="row">
+                <!-- Rectangular switch -->
+                <label class="switch">
+                    <input type="checkbox" id="pub-switch9" value="9">
+                    <span class="slider"></span>
+                </label>
+            </div>
+            <!-- <div class="row"> -->
+                <!-- Rounded switch -->
+                <!-- <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                </label>
+            </div> -->
+        </div>
+    </div>
+
+</body>
+<script src="./browserMqtt.js"></script> 
+<script src="./switch.js"></script>
+</html>
